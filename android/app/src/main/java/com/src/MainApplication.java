@@ -3,6 +3,9 @@ package com.src;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
+import net.no_mad.tts.TextToSpeechPackage;
+import com.wenkesj.voice.VoicePackage;
 import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
@@ -26,6 +29,9 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNCWebViewPackage(),
+            new TextToSpeechPackage(),
+            new VoicePackage(),
             new RNI18nPackage(),
             new VectorIconsPackage(),
             new RNGestureHandlerPackage()

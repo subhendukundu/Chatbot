@@ -138,6 +138,9 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-webview')
+    implementation project(':react-native-tts')
+    implementation project(':react-native-voice')
     implementation project(':react-native-i18n')
     implementation project(':react-native-vector-icons')
     implementation project(':react-native-gesture-handler')
