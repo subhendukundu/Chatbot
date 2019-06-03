@@ -35,6 +35,7 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: 'yellow',
     width: deviceWidth,
-    height: deviceHeight
+    height: deviceHeight,
+    paddingTop: 20
   }
 })
